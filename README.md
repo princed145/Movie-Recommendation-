@@ -8,10 +8,10 @@
 4. [Tech Stack](#TECH-STACK)
 5. [Data](#Dataset-Description)
 6. [Model Building](#MODEL-BUILDING)
-7. [Project Insights & Outcomes](#project-insights--outcomes)   
+7. [Project Insights & Outcomes](#project-Insights--outcomes)   
 8. [Challenges](#challenges)
 9. [Future Enhancement](#Future-Enhancements)
-11.[References](#references)  
+10. [References](#references)  
 
 ## Overview
 A content-based movie recommendation system built using Python, NLP techniques, and machine learning. The system leverages movie metadata from TMDB to recommend similar movies based on user-selected titles. A Streamlit web application provides an interactive interface for users to select a movie and view recommendations.
@@ -113,7 +113,7 @@ The recommendation engine is built on the following steps:
 3) **Web Application:**
     - Launch the Streamlit web app which provides an interactive interface to select a movie from a dropdown menu and display recommendations in real time.
   
-## Project Outcomes & Insights
+## Project Insights & Outcomes
 
 - **Content-Based Recommendations:**
     The system successfully generates movie recommendations based on the content features extracted from movie metadata.
