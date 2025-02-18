@@ -164,6 +164,6 @@ The recommendation engine is built on the following steps:
 
    - Deploy the web app on cloud platforms for broader accessibility and real-time performance improvements.
 
-## REFERENCES
+## References
 
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
