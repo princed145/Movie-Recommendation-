@@ -1,4 +1,7 @@
-# MOVIE-RECOMMENDATION-SYSTEM
+
+ <p align="Left">
+  <img src="https://github.com/user-attachments/assets/a71b96af-89d0-451c-8ec2-f0a8b8022d9d" width="800" height="500" alt="Alt text">
+   </p>
 
 ## Table of Contents
 
