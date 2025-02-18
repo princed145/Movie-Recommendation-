@@ -6,13 +6,12 @@
 2. [Background & Problem Statement](#background--problem-statement) 
 3. [Aim](#AIM)
 4. [Tech Stack](#TECH-STACK)
-5. [Data](#DATA)
+5. [Data](#Dataset-Description)
 6. [Model Building](#MODEL-BUILDING)
-7. [Model Evaluation](#MODEL-EVALUATION)
-8. [Project Insights & Outcomes](#project-insights--outcomes)   
-9. [Challenges](#challenges)
-10. [Key Takeaways & Next Steps](#Key-Takeaways--Next-Steps)
-11. [References](#references)  
+7. [Project Insights & Outcomes](#project-insights--outcomes)   
+8. [Challenges](#challenges)
+9. [Future Enhancement](#Future-Enhancements)
+11.[References](#references)  
 
 ## Overview
 A content-based movie recommendation system built using Python, NLP techniques, and machine learning. The system leverages movie metadata from TMDB to recommend similar movies based on user-selected titles. A Streamlit web application provides an interactive interface for users to select a movie and view recommendations.
@@ -127,3 +126,44 @@ The recommendation engine is built on the following steps:
 
 - **Scalability:**
     The modular design of the data pre-processing and recommendation function allows for easy scaling and future improvements.
+
+## Challenges
+
+- Data Quality:
+
+   - Ensuring the consistency and correctness of movie metadata.
+   - Handling missing or malformed data entries.
+  
+- Text Processing Complexity:
+
+   - Processing and combining multiple text sources (genres, overview, keywords, cast, crew) requires careful cleaning and transformation.
+
+- Feature Engineering:
+
+   - Creating a unified and meaningful tags column that accurately represents each movie.
+
+- Balancing Performance:
+
+   - Optimizing the system to provide fast recommendations while handling a large dataset.
+
+## Future Enhancements
+
+- User Feedback Integration:
+
+   - Incorporate user ratings to refine recommendations.
+     
+- Hybrid Recommendation System:
+
+   - Combine content-based filtering with collaborative filtering to further improve accuracy.
+
+- Advanced NLP Techniques:
+
+   - Experiment with more sophisticated NLP models (e.g., Word2Vec, BERT) for improved feature extraction.
+
+- Deployment:
+
+   - Deploy the web app on cloud platforms for broader accessibility and real-time performance improvements.
+
+## REFERENCES
+
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
